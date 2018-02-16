@@ -16,9 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SushiActivity" />
-        <activity android:name=".NigiriActivity" />
-        <activity android:name=".ShashimiActivity"></activity>
+        <activity android:name=".SushiActivityMenu" />
+        <activity android:name=".NigiriActivityMenu" />
+        <activity android:name=".ShashimiActivityMenu" />
     </application>
 
 </manifest>
