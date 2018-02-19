@@ -1,0 +1,3 @@
+# My-Sushi
+
+For Sushi enthusiasts who what to know exactly what they are buying, and what should come in said Sushi-Roll. It will give you a sense of what it looks like, and determine exactly what makes up said sushi. The MySushi app is a easy to use on the go application to help identify sushi by appearance and determine if that is what you ordered! With easy to see pictures and contents with calorie counts for those who wish, MySushi will keep Sushi rollers honest. Unlike other food apps this doesn’t have variety, it is pure Sushi! Our application will make it easy to keep track of multiple sushi rolls, with correct appearance, contents, and with the correct pronunciation to boot!
