@@ -2,7 +2,7 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="#F44336"
+    android:background="#F46315"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.umkc.jeff.morgan.mysushi.MainActivityMenu">
@@ -11,6 +11,7 @@
         android:id="@+id/sushi_button"
         android:layout_width="374dp"
         android:layout_height="92dp"
+        android:background="#ffff"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
         android:text="Sushi"
@@ -24,6 +25,7 @@
         android:layout_width="372dp"
         android:layout_height="97dp"
         android:layout_marginBottom="48dp"
+        android:background="#ffff"
         android:text="Nigiri"
         app:layout_constraintBottom_toTopOf="@+id/shashimi_button"
         tools:layout_editor_absoluteX="6dp"
@@ -35,6 +37,7 @@
         android:layout_height="95dp"
         android:layout_marginBottom="88dp"
         android:text="Shashimi"
+        android:background="#ffff"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="6dp"
         tools:ignore="MissingConstraints" />
