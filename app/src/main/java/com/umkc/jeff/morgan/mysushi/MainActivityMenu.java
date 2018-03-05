@@ -46,7 +46,7 @@ public class MainActivityMenu extends Activity {
         });
 
         // Locate the button in activity_main.xml
-        sashimiButton = (Button) findViewById(R.id.shashimi_button);
+        sashimiButton = (Button) findViewById(R.id.sashimi_button);
 
         // Capture button clicks
         sashimiButton.setOnClickListener(new View.OnClickListener() {

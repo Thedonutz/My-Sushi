@@ -27,16 +27,16 @@
         android:layout_marginBottom="48dp"
         android:background="#ffff"
         android:text="Nigiri"
-        app:layout_constraintBottom_toTopOf="@+id/shashimi_button"
+        app:layout_constraintBottom_toTopOf="@+id/sashimi_button"
         tools:layout_editor_absoluteX="6dp"
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/shashimi_button"
+        android:id="@+id/sashimi_button"
         android:layout_width="373dp"
         android:layout_height="95dp"
         android:layout_marginBottom="88dp"
-        android:text="Shashimi"
+        android:text="Sashimi"
         android:background="#ffff"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="6dp"
