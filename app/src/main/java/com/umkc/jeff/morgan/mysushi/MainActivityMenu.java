@@ -10,7 +10,7 @@ import android.widget.Button;
 public class MainActivityMenu extends Activity {
     Button sushiButton;
     Button nigiriButton;
-    Button shashimiButton;
+    Button sashimiButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,15 +46,15 @@ public class MainActivityMenu extends Activity {
         });
 
         // Locate the button in activity_main.xml
-        shashimiButton = (Button) findViewById(R.id.shashimi_button);
+        sashimiButton = (Button) findViewById(R.id.shashimi_button);
 
         // Capture button clicks
-        shashimiButton.setOnClickListener(new View.OnClickListener() {
+        sashimiButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
 
                 // Start NewActivity.class
                 Intent myIntent = new Intent(MainActivityMenu.this,
-                        ShashimiActivityMenu.class);
+                        SashimiActivityMenu.class);
                 startActivity(myIntent);
             }
         });

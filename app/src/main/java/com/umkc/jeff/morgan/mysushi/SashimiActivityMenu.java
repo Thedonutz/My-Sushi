@@ -3,11 +3,11 @@ package com.umkc.jeff.morgan.mysushi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class ShashimiActivityMenu extends AppCompatActivity {
+public class SashimiActivityMenu extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_shashimi);
+        setContentView(R.layout.activity_sashimi);
     }
 }
