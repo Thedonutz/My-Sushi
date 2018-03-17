@@ -10,7 +10,7 @@
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivityMenu">
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,7 +20,8 @@
         <activity android:name=".SushiActivityMenu" />
         <activity android:name=".NigiriActivityMenu" />
         <activity android:name=".SashimiActivityMenu" />
-        <activity android:name=".sushi.CaliforniaRoll_Activity"></activity>
+        <activity android:name=".sushi.CaliforniaRoll_Activity" />
+        <activity android:name=".MainActivityMenu"></activity>
     </application>
 
 </manifest>

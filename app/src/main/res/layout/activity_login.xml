@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.umkc.jeff.morgan.mysushi.LoginActivity">
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="160dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="309dp" />
+
+    <EditText
+        android:id="@+id/editText_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText_password"
+        android:layout_alignStart="@+id/editText_password"
+        android:layout_marginBottom="64dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Username"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <EditText
+        android:id="@+id/editText_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="Pass"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText_user"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="57dp"
+        android:text="LOGIN"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="50dp" />
+</RelativeLayout>
