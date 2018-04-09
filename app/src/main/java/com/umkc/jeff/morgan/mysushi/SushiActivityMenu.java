@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import static junit.framework.Assert.assertNotNull;
 
 import com.umkc.jeff.morgan.mysushi.sushi.CaliforniaRoll_Activity;
 
@@ -19,7 +20,7 @@ public class SushiActivityMenu extends AppCompatActivity {
 
         // Locate the button in activity_main.xml
         californiaRoll = (Button) findViewById(R.id.california_roll_button);
-
+        assertNotNull(californiaRoll);
         // Capture button clicks
         californiaRoll.setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {

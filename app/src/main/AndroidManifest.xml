@@ -10,11 +10,17 @@
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".MainActivityMenu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".SushiActivityMenu" />
         <activity android:name=".NigiriActivityMenu" />
         <activity android:name=".SashimiActivityMenu" />
         <activity android:name=".sushi.CaliforniaRoll_Activity" />
-        <activity android:name=".MainActivityMenu" />
         <activity android:name=".sashimi.Akami_Sashimi" />
         <activity android:name=".nigiri.Maguro_Nigiri"></activity>
     </application>
