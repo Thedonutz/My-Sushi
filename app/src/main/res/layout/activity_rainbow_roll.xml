@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.umkc.jeff.morgan.mysushi.sushi.CaliforniaRoll_Activity">
+    android:configChanges="orientation"
+    android:screenOrientation="portrait"
+    tools:context="com.umkc.jeff.morgan.mysushi.sushi.RainbowRoll_Activity">
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/relativeLayout"

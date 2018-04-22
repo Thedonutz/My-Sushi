@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:configChanges="orientation"
     android:screenOrientation="portrait"
-    tools:context="com.umkc.jeff.morgan.mysushi.sushi.CaliforniaRoll_Activity">
+    tools:context="com.umkc.jeff.morgan.mysushi.sashimi.Chutoro_Sashimi">
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/relativeLayout"
