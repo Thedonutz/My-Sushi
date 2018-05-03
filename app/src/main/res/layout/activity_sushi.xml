@@ -20,19 +20,22 @@
             />
 
         <Button
+            android:id="@+id/dragon_roll_button"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:text="Button" />
+            android:text="Dragon Roll" />
 
         <Button
+            android:id="@+id/rainbow_roll_button"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:text="Button" />
+            android:text="Rainbow Roll" />
 
         <Button
+            android:id="@+id/spicy_tuna_button"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:text="Button" />
+            android:text="Spicy Tuna Roll" />
 
         <Button
             android:layout_width="match_parent"

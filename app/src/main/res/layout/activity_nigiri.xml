@@ -13,24 +13,28 @@
         android:orientation="vertical">
 
         <Button
+            android:id="@+id/hamachi_button"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:text="Button" />
+            android:text="Hamachi" />
 
         <Button
+            android:id="@+id/ikura_button"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:text="Button" />
+            android:text="Ikura" />
 
         <Button
+            android:id="@+id/maguro_button"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:text="Button" />
+            android:text="Maguro" />
 
         <Button
+            android:id="@+id/unagi_button"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:text="Button" />
+            android:text="Unagi" />
 
         <Button
             android:layout_width="match_parent"
